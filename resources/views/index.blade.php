@@ -1,4 +1,67 @@
 @extends("master")
 @section("content")
-hello 
+<div class="desc" >
+    <div class="container text-center desc" >
+        <h1>منصة موادنا </h1>
+        <br >
+        <h3>هي منصة الكترونية توفر كل المواد التي تدرس في الجامعات السودانية ، والمراجع على صورة رقمية  ،<br ><br >
+             بحيث تكون متوفرة لكل الطلاب ، ويمكن الوصول اليها بسهولة ويسر ،<br ><br >
+              وتوفر المعلومات الكافية عن الجامعات والكليات والأقسام وأكثر.<br ><br >
+        </h3>
+    </div>
+</div>
+<div class="sample">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 text-center sample-search">
+                <span class="glyphicon glyphicon-search "></span>
+                <h1>تصفح المواد</h1>
+            </div>
+            <div class="col-lg-4 text-center sample-search">
+                <span class="glyphicon glyphicon-book "></span>
+                <h1>إختر المادة</h1>
+            </div>
+            <div class="col-lg-4 text-center sample-search">
+                <span class="glyphicon glyphicon-download "></span>
+                <h1>حملها</h1>
+            </div>            
+        </div>
+    </div>
+</div>
+<div class="uni">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 text-center sample-search">
+                <div class="thumbnail">
+                    <img src="images/sust.png" width="100px" alt="...">
+                    <div class="caption">
+                        <h3>جامعة السودان</h3>
+                        <p>جامعة السودان للعلوم والتكنلوجيا</p>
+                        <p><a href="#" class="btn btn-primary" role="button">اقرأ المزيد</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center sample-search">
+                <div class="thumbnail">
+                    <img src="images/uofk.png" width="130px" alt="...">
+                    <div class="caption">
+                        <h3>جامعة الخرطوم</h3>
+                        <p>جامعة الخرطوم  </p>
+                        <p><a href="#" class="btn btn-primary" role="button">اقرأ المزيد</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center sample-search">
+                <div class="thumbnail">
+                    <img src="images/nilin.gif" width="100px" alt="...">
+                    <div class="caption">
+                        <h3>جامعة النيلين</h3>
+                        <p>جامعة النيلين</p>
+                        <p><a href="#" class="btn btn-primary" role="button">اقرأ المزيد</a></p>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </div>  
+</div>
 @stop
