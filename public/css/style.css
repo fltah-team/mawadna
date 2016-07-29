@@ -1,25 +1,25 @@
 @font-face {
-    font-family: bahij;
-    src: url(bahij.ttf);
+    font-family: DroidKufi;
+    src: url(DroidKufi.ttf);
 }
 *{
-	font-family:bahij;
+	font-family:DroidKufi;
     
 }
 body{
     margin-top: 60px;
 }
 .navbar{
-    background-color: chocolate;
+    background-color: black;
 }
 .menu > li > a{
     color: white;
 }
 .menu > li > a:hover{
-    background-color: black;
+    background-color: chocolate;
 }
 .menu > li > a:focus{
-    background-color: black;
+    background-color: chocolate;
 }
 .show-link{
     margin: 0;

@@ -18,37 +18,12 @@
   <nav class="navbar navbar-static-top navbar-fixed-top">
   <div class="container">
       <ul class="nav navbar-nav navbar-left menu">
+        <li><a href="home" class="header-txt"><img src="images/logo.png" width="100px"></a></li>
         <li><a href="home" class="header-txt"><span class="glyphicon glyphicon-home"></span>  الصفحة الرئيسية</a></li>
-        <li class="dropdown">
-          <a href="orphan" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">الأيتام <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="orphan/create"><span class="glyphicon glyphicon-plus"></span> اضافة يتيم</a></li>
-            <li><a href="orphan"><span class="glyphicon glyphicon-list-alt"></span> عرض الكل</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="sponsor" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">الطلاب<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="orphan/create"><span class="glyphicon glyphicon-plus"></span> اضافة طالب</a></li>
-            <li><a href="orphan"><span class="glyphicon glyphicon-list-alt"></span> عرض الكل</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="sponsor" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">الدعاة<span class="caret"></span></a>
-        </li>
-        <li class="dropdown">
-          <a href="sponsor" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">الاسر<span class="caret"></span></a>
-        </li>
-        <li class="dropdown">
-          <a href="sponsor" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">جهات الكفالة<span class="caret"></span></a>
-        </li>
       </ul>
 
 
       <ul class="nav navbar-nav navbar-right menu">
-        <li class="dropdown">
-          <a href="sponsor" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> المستخدمين<span class="caret"></span></a>
-        </li>
         <li><a href="/" class="header-txt"><span class="glyphicon glyphicon-log-out"></span>  تسجيل خروج</a></li>
       </ul>
   </div>
