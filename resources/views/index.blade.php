@@ -1,5 +1,6 @@
 @extends("master")
 @section("content")
+
 <div class="desc" >
     <div class="container text-center desc" >
         <h1>منصة موادنا </h1>
@@ -12,6 +13,11 @@
 </div>
 <div class="sample">
     <div class="container">
+        <div class="text-center">
+            <h1>كيف تستفيد من موادنا</h1>
+            <h3 ></h3>            <br >
+            <br >
+        </div>
         <div class="row">
             <div class="col-lg-4 text-center sample-search">
                 <span class="glyphicon glyphicon-search "></span>
@@ -30,6 +36,11 @@
 </div>
 <div class="uni">
     <div class="container">
+        <div class="text-center">
+            <h1>تصفح  الجامعات </h1>
+            <br >
+            <br >
+        </div>
         <div class="row">
             <div class="col-lg-4 text-center sample-search">
                 <div class="thumbnail">
@@ -60,7 +71,37 @@
                         <p><a href="#" class="btn btn-primary" role="button">اقرأ المزيد</a></p>
                     </div>
                 </div>
-            </div>            
+            </div> 
+            <div class="col-lg-4 text-center sample-search">
+                <div class="thumbnail">
+                    <img src="images/omdurman.gif" width="110px" alt="...">
+                    <div class="caption">
+                        <h3>جامعة امدرمان الاسلامية</h3>
+                        <p>جامعة امدرمان الاسلامية</p>
+                        <p><a href="#" class="btn btn-primary" role="button">اقرأ المزيد</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center sample-search">
+                <div class="thumbnail">
+                    <img src="images/quran.png" width="65px" alt="...">
+                    <div class="caption">
+                        <h3>جامعة القران الكريم</h3>
+                        <p>جامعة القران الكريم  </p>
+                        <p><a href="#" class="btn btn-primary" role="button">اقرأ المزيد</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center sample-search">
+                <div class="thumbnail">
+                    <img src="images/ribba6.png" width="130px" alt="...">
+                    <div class="caption">
+                        <h3>جامعة الرباط الوطني</h3>
+                        <p>جامعة الرباط الوطني</p>
+                        <p><a href="#" class="btn btn-primary" role="button">اقرأ المزيد</a></p>
+                    </div>
+                </div>
+            </div>                      
         </div>
     </div>  
 </div>

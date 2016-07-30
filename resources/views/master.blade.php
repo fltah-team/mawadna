@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>{{ isset($title) ? $title : 'النظام الالكتروني' }}</title>
+  <title>{{ isset($title) ? $title : 'موادنا' }}</title>
   <!-- IE Compatipility Meta -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- First Mobile Meta -->
@@ -26,7 +26,7 @@
 
       <ul class="nav navbar-nav navbar-right menu">
         <li><a href="/" class="header-txt"><span class="glyphicon glyphicon-plus"></span> انضم لفريق موادنا</a></li>
-        <li><a href="/" class="header-txt"><span class="glyphicon glyphicon-log-in"></span>  تسجيل دخول </a></li>
+        <li><a href="/" class="header-txt"><span class="glyphicon glyphicon-user"></span>  تسجيل دخول </a></li>
       </ul>
   </div>
 </nav>
@@ -45,17 +45,18 @@
         </div>
         <div class="col-lg-4 text-center">
           <h3>موادنا : مشروع من مشاريع فلته</h3>
-          <a href="http://www.fb.com/flta"><p>جميع الحقوق محفوظة لفريق فلته &copy </p></a>
+          <a href="http://www.fb.com/faltah"><p>جميع الحقوق محفوظة لفريق فلته &copy </p></a>
         </div>
         <div class="col-lg-4 text-center">
           <h3>تواصلو معنا</h3>
-          <a href="http://www.fb.com/mawadnaSD"><img src="images/flta.png" width="30px" /></a>
-          <a href="http://www.fb.com/mawadnaSD"><img src="images/fb.png" width="30px" /></a>
-          <a href="http://www.fb.com/mawadnaSD"><img src="images/yt.png" width="30px" /></a>
+          <a href="http://www.fb.com/faltah"><img src="images/flta.png" width="30px" /></a>
+          <a href="http://www.fb.com/mawadnaSudan"><img src="images/fb.png" width="30px" /></a>
+          <a href="http://www.fb.com/mawadnaSudan"><img src="images/yt.png" width="30px" /></a>
         </div>
       </div>
     </div>
 </div>
+
 <!--scip src"{{asset('js/bootstrap-arabic.js')}}" ></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script-->

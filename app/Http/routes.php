@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('join',function(){
+    return view('join_mawadna_team');
+});
