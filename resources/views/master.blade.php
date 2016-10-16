@@ -48,7 +48,7 @@
           <a href="http://www.fb.com/faltah"><p>جميع الحقوق محفوظة لفريق فلته &copy </p></a>
         </div>
         <div class="col-lg-4 text-center">
-          <h3>تواصلو معنا</h3>
+          <h3>تابعونا على</h3>
           <a href="http://www.fb.com/faltah"><img src="images/flta.png" width="30px" /></a>
           <a href="http://www.fb.com/mawadnaSudan"><img src="images/fb.png" width="30px" /></a>
           <a href="http://www.fb.com/mawadnaSudan"><img src="images/yt.png" width="30px" /></a>
@@ -56,6 +56,7 @@
       </div>
     </div>
 </div>
+
 
 <!--scip src"{{asset('js/bootstrap-arabic.js')}}" ></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

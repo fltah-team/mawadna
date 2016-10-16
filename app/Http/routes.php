@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('join',function(){
     return view('join_mawadna_team');
 });
+
+Route::get('flta',function(){
+    return view('flta');
+});
